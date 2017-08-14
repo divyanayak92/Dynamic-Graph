@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12DF2E81F3FF739003F36F0 /* DGAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12DF2E71F3FF739003F36F0 /* DGAppDelegate.swift */; };
+		C12DF2EA1F3FF739003F36F0 /* DGMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12DF2E91F3FF739003F36F0 /* DGMainViewController.swift */; };
+		C12DF2EC1F3FF739003F36F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12DF2EB1F3FF739003F36F0 /* Assets.xcassets */; };
+		C12DF2EF1F3FF73A003F36F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12DF2ED1F3FF73A003F36F0 /* Main.storyboard */; };
+		C12DF2F81F400503003F36F0 /* DGGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12DF2F71F400503003F36F0 /* DGGraphView.swift */; };
+		C135B6CD1F4028F900A9497E /* DGUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C135B6CC1F4028F900A9497E /* DGUtility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C12DF2E41F3FF739003F36F0 /* DynamicGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12DF2E71F3FF739003F36F0 /* DGAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGAppDelegate.swift; sourceTree = "<group>"; };
+		C12DF2E91F3FF739003F36F0 /* DGMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGMainViewController.swift; sourceTree = "<group>"; };
+		C12DF2EB1F3FF739003F36F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C12DF2EE1F3FF73A003F36F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C12DF2F01F3FF73A003F36F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12DF2F71F400503003F36F0 /* DGGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGGraphView.swift; sourceTree = "<group>"; };
+		C135B6CC1F4028F900A9497E /* DGUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGUtility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C12DF2E11F3FF738003F36F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C12DF2DB1F3FF738003F36F0 = {
+			isa = PBXGroup;
+			children = (
+				C12DF2E61F3FF739003F36F0 /* DynamicGraph */,
+				C12DF2E51F3FF739003F36F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C12DF2E51F3FF739003F36F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12DF2E41F3FF739003F36F0 /* DynamicGraph.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12DF2E61F3FF739003F36F0 /* DynamicGraph */ = {
+			isa = PBXGroup;
+			children = (
+				C12DF2E71F3FF739003F36F0 /* DGAppDelegate.swift */,
+				C135B6CB1F4028DC00A9497E /* Utility */,
+				C12DF2F61F4004D4003F36F0 /* Controller */,
+				C12DF2F91F400524003F36F0 /* View */,
+				C12DF2FA1F400531003F36F0 /* Resources */,
+			);
+			path = DynamicGraph;
+			sourceTree = "<group>";
+		};
+		C12DF2F61F4004D4003F36F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C12DF2E91F3FF739003F36F0 /* DGMainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C12DF2F91F400524003F36F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C12DF2F71F400503003F36F0 /* DGGraphView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C12DF2FA1F400531003F36F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C12DF2FD1F400560003F36F0 /* PList */,
+				C12DF2FC1F40054B003F36F0 /* Nib */,
+				C12DF2FB1F40053F003F36F0 /* Assets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C12DF2FB1F40053F003F36F0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C12DF2EB1F3FF739003F36F0 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		C12DF2FC1F40054B003F36F0 /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				C12DF2ED1F3FF73A003F36F0 /* Main.storyboard */,
+			);
+			name = Nib;
+			sourceTree = "<group>";
+		};
+		C12DF2FD1F400560003F36F0 /* PList */ = {
+			isa = PBXGroup;
+			children = (
+				C12DF2F01F3FF73A003F36F0 /* Info.plist */,
+			);
+			name = PList;
+			sourceTree = "<group>";
+		};
+		C135B6CB1F4028DC00A9497E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C135B6CC1F4028F900A9497E /* DGUtility.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12DF2E31F3FF738003F36F0 /* DynamicGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12DF2F31F3FF73A003F36F0 /* Build configuration list for PBXNativeTarget "DynamicGraph" */;
+			buildPhases = (
+				C12DF2E01F3FF738003F36F0 /* Sources */,
+				C12DF2E11F3FF738003F36F0 /* Frameworks */,
+				C12DF2E21F3FF738003F36F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicGraph;
+			productName = DynamicGraph;
+			productReference = C12DF2E41F3FF739003F36F0 /* DynamicGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C12DF2DC1F3FF738003F36F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Aspire;
+				TargetAttributes = {
+					C12DF2E31F3FF738003F36F0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N6J8H7UXYN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C12DF2DF1F3FF738003F36F0 /* Build configuration list for PBXProject "DynamicGraph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C12DF2DB1F3FF738003F36F0;
+			productRefGroup = C12DF2E51F3FF739003F36F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12DF2E31F3FF738003F36F0 /* DynamicGraph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C12DF2E21F3FF738003F36F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12DF2EC1F3FF739003F36F0 /* Assets.xcassets in Resources */,
+				C12DF2EF1F3FF73A003F36F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12DF2E01F3FF738003F36F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12DF2EA1F3FF739003F36F0 /* DGMainViewController.swift in Sources */,
+				C135B6CD1F4028F900A9497E /* DGUtility.swift in Sources */,
+				C12DF2F81F400503003F36F0 /* DGGraphView.swift in Sources */,
+				C12DF2E81F3FF739003F36F0 /* DGAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C12DF2ED1F3FF73A003F36F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12DF2EE1F3FF73A003F36F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C12DF2F11F3FF73A003F36F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C12DF2F21F3FF73A003F36F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C12DF2F41F3FF73A003F36F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N6J8H7UXYN;
+				INFOPLIST_FILE = DynamicGraph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aspire.DynamicGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C12DF2F51F3FF73A003F36F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N6J8H7UXYN;
+				INFOPLIST_FILE = DynamicGraph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aspire.DynamicGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C12DF2DF1F3FF738003F36F0 /* Build configuration list for PBXProject "DynamicGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12DF2F11F3FF73A003F36F0 /* Debug */,
+				C12DF2F21F3FF73A003F36F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12DF2F31F3FF73A003F36F0 /* Build configuration list for PBXNativeTarget "DynamicGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12DF2F41F3FF73A003F36F0 /* Debug */,
+				C12DF2F51F3FF73A003F36F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C12DF2DC1F3FF738003F36F0 /* Project object */;
+}
